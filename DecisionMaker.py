@@ -1,6 +1,5 @@
 import streamlit as st
 import random
-from streamlit_lottie import st_lottie
 import requests
 
 st.set_page_config(page_title='DecisionMaker!', page_icon=':tada:', layout='wide')
