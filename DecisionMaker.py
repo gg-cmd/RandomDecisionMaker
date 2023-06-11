@@ -9,13 +9,6 @@ st.set_page_config(page_title='DecisionMaker!', page_icon=':tada:', layout='wide
 st.title('This app is made by a 14 year old, and is my first app')
 st.title('This website, will help you solve a dilemma, by choosing one of the options randomly!')
 
-def load_lottieurl(url):
-    r = requests.get(url)
-    return r.json()
-
-lottie_1 = load_lottieurl('https://assets8.lottiefiles.com/packages/lf20_F04ihok7hO.json')
-
-st.lottie(lottie_1, height = 300)
 
 decison_1 = st.text_input('Enter decision 1')
 decison_2 = st.text_input('Enter decision 2')
